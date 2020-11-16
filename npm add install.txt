@@ -1,0 +1,3 @@
+npm install react-bootstrap-validation --save
+
+npm install react-bootstrap bootstrapgit
