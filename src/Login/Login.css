@@ -1,0 +1,54 @@
+.Login {
+    text-align: center;
+
+  }
+  
+  .Login-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .Login-header {
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  
+  .Logo-link {
+    color: #61dafb;
+  }
+
+  /* unvisited link */
+a:link {
+    color: #40A8C4;
+    font-size: 50%;
+    text-align: right;
+  }
+
+a:hover{
+      color: red;
+  }
+  
+
+.Login-button{
+
+}
+
+input[type=text]:focus{
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid;
+}
+input[type=password]:focus{
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+}
