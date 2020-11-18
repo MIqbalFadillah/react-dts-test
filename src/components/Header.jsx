@@ -3,6 +3,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import {Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login';
+import Home from './Home';
 import test from './test';
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -12,8 +13,8 @@ class Header extends Component {
         return( 
             <Container>
                 <Router>
-                    <Navbar bg="light" expand="md">
-                        <Navbar.Brand href="#home">
+                    <Navbar bg="light">
+                        <Navbar.Brand href="/Home">
                             <h4>Banking Crowd Academy</h4>
                         </Navbar.Brand>
                         <Navbar.Toggle/>
