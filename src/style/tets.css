@@ -1,0 +1,19 @@
+.warna{
+    background-color: #fefefe;
+  }
+  .logo{
+    width: 200px;
+  }
+  .header{
+    background-color: #fefefe;
+    
+  }
+  .toggler{
+    background-color: transparent;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}

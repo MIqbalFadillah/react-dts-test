@@ -1,5 +1,9 @@
-body  {
-  background-image: url("paper.gif");
-  background-color: #cccccc;
+.body  {
+  background-image: url('../assets/3647007.jpg');
+}
+
+.header{
+  background-color: #ffff;
+  height: 70px;
 }
   

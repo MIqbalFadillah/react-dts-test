@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
-import pict from '../logo.svg'
+import '../style/Home.css'
+
 class Home extends Component {
     render(){
         return(
             <div>
-                <Header/>  
-                <div>
-                    <body background-image="img_juve.jpg">
-
-                    </body>
+                <div className="header">
+                    <Header/>
+                </div>
+                <div className="body">
+                    
+                    
 
                 </div>
             </div>
@@ -18,5 +20,4 @@ class Home extends Component {
         )
     }
 }
-
 export default Home;

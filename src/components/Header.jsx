@@ -19,11 +19,9 @@ class Header extends Component {
                         </Navbar.Brand>
                         <Navbar.Toggle/>
                         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                                <Nav.Link href="/Login">
-                                <h5>Sign in</h5>
-                                </Nav.Link>
-                                    
-                                
+                            <Nav.Link href="/Login">
+                                <h6>Sign in</h6>
+                            </Nav.Link>      
                         </Navbar.Collapse>
                     </Navbar>
                     <div className="">
